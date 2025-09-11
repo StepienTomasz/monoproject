@@ -1,0 +1,16 @@
+# This file is for ignoring files specifically for Gemini CLI.
+# Gemini CLI also respects .gitignore, so entries already in .gitignore are not needed here.
+.git/
+uv.lock
+
+# Un-ignore sub-repos so Gemini can access them
+!agm-replacement/
+!analytics-land-travel/
+!de-dbt/
+!de-prefect/
+!de-prefect-docker/
+!de-snowflake-terraform/
+!notes/
+!terraform-core/
+!terraform-github/
+!terraform-travelbi/

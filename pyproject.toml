@@ -1,0 +1,78 @@
+[project]
+name = "monoproject"
+version = "2025.0.0"
+dependencies = [
+    "aiohttp",
+    "aioboto3",
+    "altair",
+    "atlassian-python-api",
+    "awswrangler",
+    "beautifulsoup4",
+    "boto3",
+    "certifi",
+    "dbt-snowflake",
+    "geopy",
+    "googlemaps",
+    "markdown",
+    "msal",
+    "msgraph-sdk",
+    "mypy",
+    "numpy",
+    "openpyxl",
+    "oracledb",
+    "oscrypto@git+https://github.com/wbond/oscrypto.git@d5f3437ed24257895ae1edd9e503cfb352e635a8",
+    "pandas",
+    "paramiko",
+    "phpserialize",
+    "Pillow",
+    "pip",
+    "polars",
+    "prefect",
+    "prefect-aws",
+    "prefect-dbt",
+    "prefect-email",
+    "prefect-fivetran",
+    "prefect-github",
+    "prefect-shell",
+    "psutil",
+    "pydantic",
+    "pyjwt",
+    "pymongo",
+    "pymongo-auth-aws",
+    "pymssql",
+    "pyodbc",
+    "pyarrow",
+    "pysftp",
+    "pytest",
+    "PyYAML",
+    "ratelimit",
+    "reportlab",
+    "requests",
+    "requests_toolbelt",
+    "ruff",
+    "s3fs",
+    "shareplum",
+    "slack_sdk",
+    "snowflake-connector-python[pandas]",
+    "snowflake-sqlalchemy",
+    "sqlfluff",
+    "SQLAlchemy",
+    "statsmodels",
+    "streamlit",
+    "watchdog",
+    "xmltodict",
+]
+
+requires-python = ">=3.13.5"
+
+authors = [
+    { name = "Tomasz Stepien", email = "tomasz.stepien@ef.com" },
+]
+
+maintainers = [
+    { name = "Tomasz Stepien", email = "tomasz.stepien@ef.com" }
+]
+
+description = "Project for managing all the github repositories"
+readme = "README.md"
+keywords = ["Monorepo", "Monoproject", 'Python', 'Streamlit', 'Gemini CLI']
