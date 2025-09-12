@@ -1,6 +1,4 @@
 # each project is a separate repo so we don't want to version control again in the monoproject
-
-agm-replacement/
 analytics-land-travel/
 de-dbt/
 de-prefect/
