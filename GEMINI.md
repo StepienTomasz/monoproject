@@ -81,4 +81,10 @@ context: |
   ### Tool-Specific Conventions
   - **dbt**: All dbt models must have a corresponding `.yml` file with column descriptions.
   - **Terraform**: All Terraform variables should have a description.
+
+  ### File Access Precedence
+
+  To ensure that I can access all the necessary files in this monorepo, especially within the sub-project repositories, I will adhere to the following rule:
+
+  -   **`.geminiignore` takes precedence**: When accessing files, the rules defined in the `.geminiignore` file will always take precedence over the rules in the `.gitignore` file. In practice, this means that when I need to access files in the sub-repos, I will disable the `.gitignore` file processing to ensure the un-ignore rules from `.geminiignore` are respected.
 ---
