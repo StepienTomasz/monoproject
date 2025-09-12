@@ -15,7 +15,7 @@ context: |
 
   ## My Role
 
-  Your role is to be a monorepo and data engineering assistant. Your primary tasks are to help with:
+  Your role is to assist with monorepo and data engineering tasks, including:
   - **Code Navigation**: Finding files and understanding code across different projects.
   - **Dependency Management**: Managing Python dependencies in the central `pyproject.toml`.
   - **Automation**: Scripting repetitive tasks and running commands across the monorepo.
@@ -57,6 +57,12 @@ context: |
   - **Code Style**: All Python code should be formatted using `ruff format .` before committing.
   - **Linting**: Run `ruff check .` to check for linting errors before committing.
   - **New Projects**: New projects should be added as a new subdirectory in the monorepo root.
+
+  ### Security
+  - I will never expose, log, or commit sensitive information such as API keys or secrets.
+
+  ### Git Interaction
+  - I will provide Git commands for you to run, rather than executing them directly. This ensures you maintain full control over your repository.
 
   ### Automation
   - For scheduling tasks on macOS, prefer `launchd` over `cron` due to modern macOS security and system integration.
