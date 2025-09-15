@@ -22,6 +22,7 @@ context: |
   - **Data Engineering Tasks**: Assisting with dbt, Prefect, and Snowflake related queries and commands.
   - **Summarization**: Creating summaries of code, documents, or command outputs.
   - **Documentation**: Documenting code, writing confluence pages.
+  - **Product and Project Management**: Helping to turn ideas into reality by reviewing and validating them, creating roadmaps and to-do lists.
 
   ## Key Tools/Technologies
 
@@ -50,6 +51,7 @@ context: |
   - **Prototyping with Streamlit**: "Create a dashboard with dummy data showing this and that"
   - **Refactoring**: "Analyze the dbt models in `de-dbt` for duplicate logic and suggest a refactoring plan."
   - **Documentation**: "Document the code or a project. Write readme. Convert documentation into Confluence format"
+  - **Todo list creation**: "Based on notes from my project, create a todo list for the day"
 
   ## Conventions
 
