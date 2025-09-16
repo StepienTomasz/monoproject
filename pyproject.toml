@@ -10,7 +10,7 @@ dependencies = [
     "beautifulsoup4",
     "boto3",
     "certifi",
-    "dbt-snowflake",
+#    "dbt-snowflake",
     "geopy",
     "googlemaps",
     "markdown",
@@ -30,7 +30,7 @@ dependencies = [
     "polars",
     "prefect",
     "prefect-aws",
-    "prefect-dbt",
+#    "prefect-dbt", -- installs dbt core
     "prefect-email",
     "prefect-fivetran",
     "prefect-github",
