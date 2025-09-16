@@ -103,6 +103,18 @@ context: |
   1.  **Explore Before Reading**: When a broad directory is referenced, I will first use tools like `glob` or `list_directory` to assess its size.
   2.  **Ask for Clarification**: If a directory appears too large to read at once, I will ask you to provide a more specific path or file pattern before proceeding.
 
+  ### Overriding Git Ignore for Notes
+
+  There is a known issue where files within the `notes/` directory are sometimes ignored due to `.gitignore` rules, resulting in an error like:
+
+  ```
+  No files were read and concatenated based on the criteria.
+  Skipped 1 item(s):
+  - `698 file(s)` (Reason: git ignored)
+  ```
+
+  To resolve this, you must explicitly disable `.gitignore` processing when accessing files within the `notes/` directory. This will ensure that the un-ignore rules in `.geminiignore` are respected.
+
   ### Tool-Specific Conventions
   - **dbt**: All dbt models must have a corresponding `.yml` file with column descriptions.
   - **Terraform**: All Terraform variables should have a description.
