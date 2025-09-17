@@ -88,7 +88,7 @@ Combine these two parts into a single, coherent daily plan for today.
     try:
         print("Generating new daily plan with Gemini...")
         result = subprocess.run(
-            ["gemini", "-p", prompt],
+            ["/opt/homebrew/bin/gemini", "-p", prompt],
             capture_output=True,
             text=True,
             check=True,

@@ -62,6 +62,8 @@ dependencies = [
     "streamlit",
     "watchdog",
     "xmltodict",
+    "snowflake-connector-python[secure-local-storage]",
+    "tabulate",
 ]
 
 requires-python = ">=3.13.5"
