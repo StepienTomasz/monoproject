@@ -64,6 +64,8 @@ dependencies = [
     "xmltodict",
     "snowflake-connector-python[secure-local-storage]",
     "tabulate",
+    "scipy",
+    "scipy-stubs",
 ]
 
 requires-python = ">=3.13.5"
